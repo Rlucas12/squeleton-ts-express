@@ -1,7 +1,7 @@
 {
   "name": "squeleton-ts-express",
   "version": "1.0.0",
-  "description": "Squeleton for ExpressJS API using TYpeScript",
+  "description": "Squeleton for ExpressJS API using Typescript",
   "main": "index.js",
   "scripts": {
     "dev": "concurrently -k -n \"Typescript,Node\" -p \"[{name}]\" -c \"blue,green\" \"tsc --watch\" \"nodemon dist/index.js\"",
@@ -15,5 +15,9 @@
     "concurrently": "^4.0.1",
     "nodemon": "^1.18.4",
     "typescript": "^3.1.1"
+  },
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "express": "^4.16.3"
   }
 }

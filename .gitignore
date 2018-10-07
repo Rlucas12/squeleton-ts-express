@@ -177,4 +177,4 @@ tests/baselines/reference/dt
 .failed-tests
 TEST-results.xml
 package-lock.json
-©
+/dist
