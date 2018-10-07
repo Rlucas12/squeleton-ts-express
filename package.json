@@ -1,0 +1,19 @@
+{
+  "name": "squeleton-ts-express",
+  "version": "1.0.0",
+  "description": "Squeleton for ExpressJS API using TYpeScript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently -k -n \"Typescript,Node\" -p \"[{name}]\" -c \"blue,green\" \"tsc --watch\" \"nodemon dist/index.js\"",
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "REYNES Lucas",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.11.4",
+    "concurrently": "^4.0.1",
+    "nodemon": "^1.18.4",
+    "typescript": "^3.1.1"
+  }
+}
